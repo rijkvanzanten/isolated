@@ -1,0 +1,15 @@
+{
+	"name": "isolated",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/index.ts"
+	},
+	"dependencies": {
+		"isolated-vm": "4.6.0"
+	},
+	"devDependencies": {
+		"@directus/tsconfig": "1.0.0",
+		"@types/node": "20.7.0",
+		"tsx": "3.13.0"
+	}
+}
